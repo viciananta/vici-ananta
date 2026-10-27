@@ -9,7 +9,12 @@
 :root{--gold:#d4af67;--black:#090909;--cream:#f4eee3}
 body{background:var(--black);color:var(--cream);font-family:Georgia,serif}
 header{padding:24px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #29251e}
-.logo{color:var(--gold);font-size:19px;letter-spacing:3px}
+.logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
 nav a{color:#eee;text-decoration:none;margin-left:18px;font:12px Arial}
 .hero{min-height:75vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:50px 20px;background:radial-gradient(ellipse at center,#292116 0%,#090909 68%)}
 .eyebrow{color:var(--gold);letter-spacing:5px;font:10px Arial;margin-bottom:24px}
@@ -32,7 +37,7 @@ footer span{color:var(--gold)}
 </head>
 <body>
 <header>
-<div class="logo">VICI ANANTA</div>
+<img class="logo" src="logo.png" alt="VICI ANANTA">
 <nav><a href="#home">HOME</a><a href="#collections">COLLECTIONS</a><a href="#about">OUR STORY</a></nav>
 </header>
 
